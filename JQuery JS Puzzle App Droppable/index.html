@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="time-block">
+            <span id="time">
+                <span class="minuteTime">1</span>
+                <span class="dote">:</span>
+                <span class="seomdTime">00</span>
+            </span>
+        </div>
+        <div class="checkTime">
+            <span class='checkTimeText'></span>
+            <div class="buttonBox">
+                <input type="button" class="checkTimeBtn" value="Check time">
+                <input type="button" class="closeGameBtn" value="Close">
+            </div>
+        </div>
+        <div class="winnerBlock">
+            <span class="winnerText">WooHoo,well done,you did it!</span>
+            <input type="button" class="winCloseBtn" value="Close">
+        </div>
+        <div class="lostDiv">
+            <span class='lostTimeText'>It`s a pity,but you lost</span>
+            <input type="button" class="quitGameBtn" value="Close">
+        </div>
+        <div class="button-container">
+            <input type="button" id="startGame" value="Start game!">
+            <input type="button" id="checkGame" value="Check result">
+            <input type="button" id="newGame" value="New game">
+        </div>
+
+        <div class="display-container">
+            <div class="leftDisplay sort">
+                <img src="./picture/20151231141940355/20151231141940355 (0_0).png" data-id="1" alt="" class="picture">
+                <img src="./picture/20151231141940355/20151231141940355 (0_1).png" data-id="2" alt="" class="picture">
+                <img src="./picture/20151231141940355/20151231141940355 (0_2).png" data-id="3" alt="" class="picture">
+                <img src="./picture/20151231141940355/20151231141940355 (0_3).png" data-id="4" alt="" class="picture">
+                <img src="./picture/20151231141940355/20151231141940355 (1_0).png" data-id="5" alt="" class="picture">
+                <img src="./picture/20151231141940355/20151231141940355 (1_1).png" data-id="6" alt="" class="picture">
+                <img src="./picture/20151231141940355/20151231141940355 (1_2).png" data-id="7" alt="" class="picture">
+                <img src="./picture/20151231141940355/20151231141940355 (1_3).png" data-id="8" alt="" class="picture">
+                <img src="./picture/20151231141940355/20151231141940355 (2_0).png" data-id="9" alt="" class="picture">
+                <img src="./picture/20151231141940355/20151231141940355 (2_1).png" data-id="10" alt="" class="picture">
+                <img src="./picture/20151231141940355/20151231141940355 (2_2).png" data-id="11" alt="" class="picture">
+                <img src="./picture/20151231141940355/20151231141940355 (2_3).png" data-id="12" alt="" class="picture">
+                <img src="./picture/20151231141940355/20151231141940355 (3_0).png" data-id="13" alt="" class="picture">
+                <img src="./picture/20151231141940355/20151231141940355 (3_1).png" data-id="14" alt="" class="picture">
+                <img src="./picture/20151231141940355/20151231141940355 (3_2).png" data-id="15" alt="" class="picture">
+                <img src="./picture/20151231141940355/20151231141940355 (3_3).png" data-id="16" alt="" class="picture">
+            </div>
+            <div class="rightDisplay sort"></div>
+        </div>
+
+    </div>
+
+
+    <script src="./jquery-3.7.1.min.js"></script>
+    <script src="./jqueryUI/jquery-ui-1.13.2.custom/jquery-ui.min.js"></script>
+    <script src="./main.js"></script>
+</body>
+
+</html>
